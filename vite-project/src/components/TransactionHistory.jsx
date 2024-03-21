@@ -1,10 +1,9 @@
-
-import "./TransactionHistory.module.css"; 
+import styles from "./TransactionHistory.module.css"; 
 
 const TransactionHistory = ({ items }) => {
   return (
-    <div className="table-container"> 
-      <table>
+    <div className={styles["table-container"]}> 
+      <table className={styles.table}>
         <thead>
           <tr>
             <th>Type</th>
