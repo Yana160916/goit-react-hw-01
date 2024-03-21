@@ -1,0 +1,33 @@
+
+.table-container {
+    width: 680px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #000;
+    color: black;
+    text-transform: capitalize;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c5c5c5;
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
