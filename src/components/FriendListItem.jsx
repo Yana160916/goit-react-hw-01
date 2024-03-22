@@ -14,20 +14,5 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
   );
 };
 
-const FriendList = ({ friends }) => {
-  return (
-    <ul className={styles.friendList}>
-      {friends.map((friend) => (
-        <li key={friend.id}>
-          <FriendListItem
-            avatar={friend.avatar}
-            name={friend.name}
-            isOnline={friend.isOnline}
-          />
-        </li>
-      ))}
-    </ul>
-  );
-};
 
-export { FriendList, FriendListItem };
+export default  FriendListItem 
